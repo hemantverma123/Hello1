@@ -48,9 +48,9 @@ public class Encryptor {
         String initVector = "RandomInitVector"; // 16 bytes IV
 
         System.out.println(decrypt(key, initVector,
-                encrypt(key, initVector, "Agra123456")));
+                encrypt(key, initVector, "uataPassword1")));
         
-        System.out.println(decrypt(key, initVector,"i+0Yh/mrMFHJURYreHS8wQ=="));
+        System.out.println(decrypt(key, initVector,"GHHZ/pYBI+M83IlInKlebQ=="));
 
         
     }
